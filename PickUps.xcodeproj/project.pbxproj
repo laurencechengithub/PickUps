@@ -22,6 +22,8 @@
 		5D87BE9826B297C300BFAB90 /* EncodeToMD5.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D87BE9426B297C300BFAB90 /* EncodeToMD5.swift */; };
 		5D87BE9926B297C300BFAB90 /* SwiftTimer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D87BE9526B297C300BFAB90 /* SwiftTimer.swift */; };
 		5D87BE9B26B297F300BFAB90 /* .gitattributes in Resources */ = {isa = PBXBuildFile; fileRef = 5D87BE9A26B297F300BFAB90 /* .gitattributes */; };
+		5D87BE9D26B29AAA00BFAB90 /* PropertyWrapper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D87BE9C26B29AAA00BFAB90 /* PropertyWrapper.swift */; };
+		5D87BEA326B29D7B00BFAB90 /* NetWorkManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5D87BEA226B29D7B00BFAB90 /* NetWorkManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +44,8 @@
 		5D87BE9426B297C300BFAB90 /* EncodeToMD5.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EncodeToMD5.swift; sourceTree = "<group>"; };
 		5D87BE9526B297C300BFAB90 /* SwiftTimer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SwiftTimer.swift; sourceTree = "<group>"; };
 		5D87BE9A26B297F300BFAB90 /* .gitattributes */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = .gitattributes; sourceTree = "<group>"; };
+		5D87BE9C26B29AAA00BFAB90 /* PropertyWrapper.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PropertyWrapper.swift; sourceTree = "<group>"; };
+		5D87BEA226B29D7B00BFAB90 /* NetWorkManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NetWorkManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,21 +81,39 @@
 			children = (
 				5D87BE7626B2956200BFAB90 /* AppDelegate.swift */,
 				5D87BE7826B2956200BFAB90 /* SceneDelegate.swift */,
+				5D87BEA226B29D7B00BFAB90 /* NetWorkManager.swift */,
 				5D87BE7A26B2956200BFAB90 /* ViewController.swift */,
 				5D87BE8C26B2975100BFAB90 /* DebugPrint.swift */,
-				5D87BE8B26B2975100BFAB90 /* GlobalDevice.swift */,
-				5D87BE8A26B2975100BFAB90 /* GlobalFunc.swift */,
-				5D87BE8D26B2975100BFAB90 /* GlobalValue.swift */,
+				5D87BE9E26B29AB300BFAB90 /* Global */,
 				5D87BE9326B297C300BFAB90 /* AESCryption.swift */,
-				5D87BE9226B297C300BFAB90 /* Base64Crytion.swift */,
-				5D87BE9426B297C300BFAB90 /* EncodeToMD5.swift */,
-				5D87BE9526B297C300BFAB90 /* SwiftTimer.swift */,
+				5D87BE9F26B29ACE00BFAB90 /* Utility */,
 				5D87BE7C26B2956200BFAB90 /* Main.storyboard */,
 				5D87BE7F26B2956200BFAB90 /* Assets.xcassets */,
 				5D87BE8126B2956200BFAB90 /* LaunchScreen.storyboard */,
 				5D87BE8426B2956200BFAB90 /* Info.plist */,
 			);
 			path = PickUps;
+			sourceTree = "<group>";
+		};
+		5D87BE9E26B29AB300BFAB90 /* Global */ = {
+			isa = PBXGroup;
+			children = (
+				5D87BE8B26B2975100BFAB90 /* GlobalDevice.swift */,
+				5D87BE8A26B2975100BFAB90 /* GlobalFunc.swift */,
+				5D87BE8D26B2975100BFAB90 /* GlobalValue.swift */,
+			);
+			path = Global;
+			sourceTree = "<group>";
+		};
+		5D87BE9F26B29ACE00BFAB90 /* Utility */ = {
+			isa = PBXGroup;
+			children = (
+				5D87BE9426B297C300BFAB90 /* EncodeToMD5.swift */,
+				5D87BE9526B297C300BFAB90 /* SwiftTimer.swift */,
+				5D87BE9C26B29AAA00BFAB90 /* PropertyWrapper.swift */,
+				5D87BE9226B297C300BFAB90 /* Base64Crytion.swift */,
+			);
+			path = Utility;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -167,9 +189,11 @@
 			files = (
 				5D87BE7B26B2956200BFAB90 /* ViewController.swift in Sources */,
 				5D87BE9126B2975100BFAB90 /* DebugPrint.swift in Sources */,
+				5D87BE9D26B29AAA00BFAB90 /* PropertyWrapper.swift in Sources */,
 				5D87BE9726B297C300BFAB90 /* AESCryption.swift in Sources */,
 				5D87BE7726B2956200BFAB90 /* AppDelegate.swift in Sources */,
 				5D87BE9626B297C300BFAB90 /* Base64Crytion.swift in Sources */,
+				5D87BEA326B29D7B00BFAB90 /* NetWorkManager.swift in Sources */,
 				5D87BE8E26B2975100BFAB90 /* GlobalValue.swift in Sources */,
 				5D87BE9926B297C300BFAB90 /* SwiftTimer.swift in Sources */,
 				5D87BE7926B2956200BFAB90 /* SceneDelegate.swift in Sources */,
